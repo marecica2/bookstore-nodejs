@@ -1,6 +1,19 @@
-# myapp
+# Node Bookstore
 
-node-bookstore
+Sample prototype based on express generator 
+https://github.com/cdimascio/generator-express-no-stress
+
+What may be useful for further investigation is : 
+
+- [Express.js](www.expressjs.com)  
+- [Babel.js](https://babeljs.io/) - Investigate use of typescript with nodejs 
+- [Pino](https://github.com/pinojs/pino) - We need some reliable logging as well
+- [dotenv](https://github.com/motdotla/dotenv) - Environment variables 
+- [Backpack](https://github.com/palmerhq/backpack) -  a minimalistic build system for Node.js projects. Investigate how it works, what else from backpack do we need for deployment
+- [ESLint](http://eslint.org/) - code quality
+- [Swagger](http://swagger.io/) - rest api 
+
+
 
 ## Install It
 ```
@@ -38,3 +51,4 @@ cf push myapp
 * Point you're browser to [http://localhost:3000](http://localhost:3000)
 * Invoke the example REST endpoint `curl http://localhost:3000/api/v1/examples`
    
+
