@@ -5,7 +5,7 @@ https://github.com/cdimascio/generator-express-no-stress
 
 What may be useful for further investigation is : 
 
-- [Express.js](www.expressjs.com)  
+- [Express.js](http://www.expressjs.com)  
 - [Babel.js](https://babeljs.io/) - Investigate use of typescript with nodejs 
 - [Pino](https://github.com/pinojs/pino) - We need some reliable logging as well
 - [dotenv](https://github.com/motdotla/dotenv) - Environment variables 
