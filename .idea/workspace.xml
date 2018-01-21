@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e912a0ae-0c7b-4c4d-b9f8-7fea76e353bb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build.js" afterPath="$PROJECT_DIR$/build.js" />
-      <change beforePath="$PROJECT_DIR$/server/api/user/userController.js" afterPath="$PROJECT_DIR$/server/api/user/userController.js" />
-      <change beforePath="$PROJECT_DIR$/server/api/user/userService.js" afterPath="$PROJECT_DIR$/server/api/user/userService.js" />
-      <change beforePath="$PROJECT_DIR$/server/common/env.js" afterPath="$PROJECT_DIR$/server/config/env.js" />
-      <change beforePath="$PROJECT_DIR$/server/common/logger.js" afterPath="$PROJECT_DIR$/server/config/logger.js" />
-      <change beforePath="$PROJECT_DIR$/server/common/mongo.js" afterPath="$PROJECT_DIR$/server/config/mongo.js" />
-      <change beforePath="$PROJECT_DIR$/server/common/server.js" afterPath="$PROJECT_DIR$/server/config/server.js" />
-      <change beforePath="$PROJECT_DIR$/server/common/swagger/Api.yaml" afterPath="$PROJECT_DIR$/server/config/swagger/Api.yaml" />
-      <change beforePath="$PROJECT_DIR$/server/common/swagger/index.js" afterPath="$PROJECT_DIR$/server/config/swagger/index.js" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" afterPath="$PROJECT_DIR$/server/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/config/swagger/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
@@ -78,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/config/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -86,6 +76,26 @@
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Api.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/config/swagger/Api.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2922">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,6 +213,19 @@
               <item name="bookstore-nodejs" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bookstore-nodejs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookstore-nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-nodejs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookstore-nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="swagger" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -279,7 +302,7 @@
       <workItem from="1516353669718" duration="3375000" />
       <workItem from="1516566551031" duration="300000" />
       <workItem from="1516566859536" duration="1956000" />
-      <workItem from="1516568894099" duration="2287000" />
+      <workItem from="1516568894099" duration="2330000" />
     </task>
     <task id="LOCAL-00001" summary="crud updated, cleanup">
       <created>1516572011154</created>
@@ -295,11 +318,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516572123163</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cleanup">
+      <created>1516572297421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1516572297421</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18477000" />
+    <option name="totallyTimeSpent" value="18520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="839" y="0" width="1852" height="1080" extended-state="6" />
@@ -359,7 +389,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="crud updated, cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="crud updated, cleanup" />
+    <MESSAGE value="cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -609,6 +640,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -624,14 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/config/swagger/Api.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2466">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -686,14 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/config/swagger/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -711,6 +727,30 @@
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/swagger/Api.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2922">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/swagger/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
