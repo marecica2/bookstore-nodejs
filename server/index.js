@@ -1,6 +1,6 @@
-import './common/env';
-import Server from './common/server';
-import mongo from './common/mongo';
+import './config/env';
+import Server from './config/server';
+import mongo from './config/mongo';
 import routes from './routes';
 
 mongo();

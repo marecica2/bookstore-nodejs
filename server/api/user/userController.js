@@ -1,5 +1,5 @@
 import UserService from './userService';
-import logger from '../../common/logger';
+import logger from '../../config/logger';
 import greetings from '../../../shared/greetings';
 
 export class Controller {

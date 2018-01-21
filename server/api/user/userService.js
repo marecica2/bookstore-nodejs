@@ -1,4 +1,4 @@
-import logger from '../../common/logger';
+import logger from '../../config/logger';
 import User from './user';
 
 class UserService {
