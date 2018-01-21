@@ -2,7 +2,6 @@ import middleware from 'swagger-express-middleware';
 import * as path from 'path';
 
 export default function (app, routes) {
-  
   middleware(path.join(__dirname, 'Api.yaml'), app, (err, mw) => {
     // Enable Express' case-sensitive and strict options
     // (so "/entities", "/Entities", and "/Entities/" are all different)
@@ -11,7 +10,7 @@ export default function (app, routes) {
 
     app.use(mw.metadata());
     app.use(mw.files({
-      // Override the Express App's case-sensitive 
+      // Override the Express App's case-sensitive
       // and strict-routing settings for the Files middleware.
       caseSensitive: false,
       strict: false,
