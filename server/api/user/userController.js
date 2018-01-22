@@ -1,15 +1,17 @@
 import UserService from './userService';
 import logger from '../../config/logger';
-import greetings from '../../../shared/greetings';
+// import greetings from '../../../shared/greetings';
 
+/**
+ * User Controller
+ */
 export class Controller {
   all(req, res) {
     UserService.all()
-      .then(r => res.json(r));
+      .then(r => res.json(r[0].userStatus));
   }
 
   byId(req, res) {
-    logger.info('get by id');
     UserService
       .byId(req.params.id)
       .then(r => {
@@ -19,7 +21,6 @@ export class Controller {
   }
 
   create(req, res) {
-    logger.info('create');
     UserService
       .create(req.body)
       .then(r => res
@@ -29,7 +30,6 @@ export class Controller {
   }
 
   update(req, res) {
-    logger.info('update');
     UserService
       .update(req.params.id, req.body)
       .then(r => res
@@ -39,12 +39,18 @@ export class Controller {
   }
 
   remove(req, res) {
-    logger.info('delete');
     UserService
-      .delete(req.params.id)
-      .then(r => res
-        .status(201)
-        .json(r));
+      .remove(req.params.id)
+      .then(success => {
+        if (success) {
+          return res.status(204).send();
+        }
+        return res.status(404).send();
+      }).catch(err => {
+        logger.error(req);
+        res.status(400).json(err);
+      });
   }
 }
+
 export default new Controller();

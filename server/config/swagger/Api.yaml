@@ -148,12 +148,14 @@ paths:
         - application/xml
         - application/json
       parameters:
-        - name: username
+        - name: userId
           in: path
           description: The name that needs to be deleted
           required: true
           type: string
       responses:
+        '201':
+          description: user successfully deleted
         '400':
           description: Invalid username supplied
         '404':
