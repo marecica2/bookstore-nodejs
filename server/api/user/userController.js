@@ -8,7 +8,7 @@ import logger from '../../config/logger';
 export class Controller {
   all(req, res) {
     UserService.all()
-      .then(r => res.json(r[0].userStatus));
+      .then(r => res.json(r));
   }
 
   byId(req, res) {
